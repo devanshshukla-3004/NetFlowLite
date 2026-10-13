@@ -1,0 +1,23 @@
+{
+  "metadata": {"description": "Synthetic lab traffic for repeatable demonstration; not captured from a real network."},
+  "packets": [
+    {"timestamp":1.0,"src_ip":"192.168.1.10","dst_ip":"192.168.1.20","protocol":"TCP","src_port":51514,"dst_port":443,"bytes":850},
+    {"timestamp":1.1,"src_ip":"192.168.1.10","dst_ip":"192.168.1.20","protocol":"TCP","src_port":51514,"dst_port":443,"bytes":420},
+    {"timestamp":1.2,"src_ip":"192.168.1.20","dst_ip":"192.168.1.10","protocol":"TCP","src_port":443,"dst_port":51514,"bytes":1200},
+    {"timestamp":1.3,"src_ip":"192.168.1.11","dst_ip":"192.168.1.20","protocol":"TCP","src_port":51515,"dst_port":80,"bytes":640},
+    {"timestamp":1.4,"src_ip":"192.168.1.11","dst_ip":"192.168.1.20","protocol":"TCP","src_port":51515,"dst_port":80,"bytes":510},
+    {"timestamp":1.5,"src_ip":"192.168.1.12","dst_ip":"192.168.1.53","protocol":"UDP","src_port":53001,"dst_port":53,"bytes":92},
+    {"timestamp":1.6,"src_ip":"192.168.1.12","dst_ip":"192.168.1.53","protocol":"UDP","src_port":53002,"dst_port":53,"bytes":98},
+    {"timestamp":1.7,"src_ip":"192.168.1.10","dst_ip":"192.168.1.30","protocol":"TCP","src_port":51516,"dst_port":22,"bytes":74},
+    {"timestamp":1.8,"src_ip":"192.168.1.10","dst_ip":"192.168.1.31","protocol":"TCP","src_port":51517,"dst_port":23,"bytes":74},
+    {"timestamp":1.9,"src_ip":"192.168.1.10","dst_ip":"192.168.1.32","protocol":"TCP","src_port":51518,"dst_port":25,"bytes":74},
+    {"timestamp":2.0,"src_ip":"192.168.1.10","dst_ip":"192.168.1.33","protocol":"TCP","src_port":51519,"dst_port":53,"bytes":74},
+    {"timestamp":2.1,"src_ip":"192.168.1.10","dst_ip":"192.168.1.34","protocol":"TCP","src_port":51520,"dst_port":110,"bytes":74},
+    {"timestamp":2.2,"src_ip":"192.168.1.10","dst_ip":"192.168.1.35","protocol":"TCP","src_port":51521,"dst_port":139,"bytes":74},
+    {"timestamp":2.3,"src_ip":"192.168.1.10","dst_ip":"192.168.1.36","protocol":"TCP","src_port":51522,"dst_port":143,"bytes":74},
+    {"timestamp":2.4,"src_ip":"192.168.1.10","dst_ip":"192.168.1.37","protocol":"TCP","src_port":51523,"dst_port":443,"bytes":74},
+    {"timestamp":2.5,"src_ip":"192.168.1.10","dst_ip":"192.168.1.38","protocol":"TCP","src_port":51524,"dst_port":445,"bytes":74},
+    {"timestamp":2.6,"src_ip":"192.168.1.10","dst_ip":"192.168.1.39","protocol":"TCP","src_port":51525,"dst_port":3389,"bytes":74},
+    {"timestamp":2.7,"src_ip":"192.168.1.12","dst_ip":"192.168.1.53","protocol":"ICMP","src_port":null,"dst_port":null,"bytes":98}
+  ]
+}
